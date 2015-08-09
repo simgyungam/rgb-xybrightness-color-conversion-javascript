@@ -1,22 +1,3 @@
-# rgb-xybrightness-color-conversion-javascript
-Conversion Formula between RGB and XY &amp; Brightness written in JavaScript
-
-# Usage
-
-```js
-var r = 0;
-var g = 255;
-var b = 128;
-var model = 'LLC010';
-
-var xyb = RGBtoXY(r,g,b,model);
-
-var rgb = XYtoRGB(xyb.x, xyb.y, xyb.bri, model);
-```
-
-# Code
-
-```js
 
 var cptRED = 0;
 
@@ -341,5 +322,3 @@ function XYtoRGB(x, y, brightness, model)
     };
 
 }
-
-```
