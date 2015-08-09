@@ -334,6 +334,10 @@ function XYtoRGB(x, y, brightness, model)
     g *= 255;
     b *= 255;
 
+    r = Math.round(r);
+    g = Math.round(g);
+    b = Math.round(b);
+
     return {
         r: r,
         g: g,
